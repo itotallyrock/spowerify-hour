@@ -6,3 +6,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+aspotify = "0.7.0"
+tokio = { version = "1.11.0", features = ["full"] }
+fastrand = "1.5.0"
+itertools = "0.10.1"
